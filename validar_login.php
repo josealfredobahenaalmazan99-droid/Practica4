@@ -22,10 +22,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             header("Location: panel.php");
             exit();
         } else {
-            echo "<script>alert('Contraseña incorrecta.'); window.location='login.php';</script>";
+            echo "<script>alert('Contraseña incorrecta.'); window.location='index.php';</script>";
         }
     } else {
-        echo "<script>alert('Usuario no encontrado.'); window.location='login.php';</script>";
+        echo "<script>alert('Usuario no encontrado.'); window.location='index.php';</script>";
     }
 }
 ?>
