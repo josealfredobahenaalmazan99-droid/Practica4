@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['login_submit'])) {
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<title>💎 Joyería Sahori - Iniciar Sesión</title>
+<title>💎 Joyería Arely - Iniciar Sesión</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <style>
 *{box-sizing:border-box}
